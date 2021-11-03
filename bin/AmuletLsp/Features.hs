@@ -14,7 +14,7 @@ import Data.Span
 import Frontend.Errors
 
 import Language.LSP.Types.Lens
-import Language.LSP.Types
+import Language.LSP.Types hiding (line)
 
 import Prelude hiding (id)
 

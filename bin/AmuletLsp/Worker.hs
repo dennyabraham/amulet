@@ -68,7 +68,7 @@ import Data.Span
 import Frontend.Errors
 import Frontend.Files
 
-import Language.LSP.Types
+import Language.LSP.Types hiding (SemanticTokenRelative(length), SemanticTokenAbsolute(length))
 
 import Parser.Wrapper (runParser)
 import Parser.Error (ParseError)
