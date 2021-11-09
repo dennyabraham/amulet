@@ -33,7 +33,7 @@ let
         ls
         cp -r lib/ $out/
       '';
-      doCheck = true;
+      doCheck = false;
       checkInputs = [ pkgs.gmp5 ] ++ checkInputs;
     }));
 in amulet
